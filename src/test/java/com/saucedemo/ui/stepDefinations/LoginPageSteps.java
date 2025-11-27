@@ -15,7 +15,7 @@ public class LoginPageSteps extends BaseClass{
 	
 	@Given("user is on login page")
 	public void user_is_on_login_page() throws IOException {
-		initialization("incognito");
+		initialization("chrome");
 	}
 
 	@When("user enter {string} as userName and {string} as password")

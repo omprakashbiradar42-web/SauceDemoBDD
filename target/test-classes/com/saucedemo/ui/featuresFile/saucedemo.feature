@@ -15,7 +15,7 @@ Feature: Test sauceDemo application
     
     Scenario: validate checkout information funcationality
     
-    When user Enter "Pratik" as firstName  "Shinde" as lastName and "676767" as pincode
+    When user Enter "Rohit" as firstName  "Sharma" as lastName and "264264" as pincode
     Then user click on continue button
     
     Scenario: validate checkoutOverview
